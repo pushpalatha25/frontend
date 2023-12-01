@@ -1,0 +1,102 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('image3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(214, 213, 214, 0.9);
+    border-radius: 10px;
+    margin-top: 50px;
+  }
+  
+  select,
+  input,
+  textarea,
+  button {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4caf5c;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #complaintList {
+    margin-top: 20px;
+  }
+  
+  .complaint {
+    background-color: rgb(224, 28, 28), 179, 155;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .side-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 200px;
+    background-color: #f0f0f0;
+    overflow-y: auto;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .recent-complaint {
+    background-color: #899c75;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .top-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .copyright {
+    margin-top: 20px;
+    text-align: center;
+    color: #f80707;
+  }
+  
+  
+  .side-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 200px;
+    background-color: #f0f0f0;
+    overflow-y: auto;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .close-btn {
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #c71616;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
